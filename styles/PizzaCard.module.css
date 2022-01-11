@@ -39,3 +39,17 @@
   text-align: center;
   color: #777;
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+  .price,
+  .desc {
+    font-size: 18px;
+  }
+}
